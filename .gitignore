@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data (Ignore large CSVs if desired, or keep them if sharing)
+# data/raw_data/*.csv
+!data/raw_data/.gitkeep
+
+# Analysis Results
+price_check_results.txt
+high_orders_analysis.txt
+final_stats.txt
+price_check_results.txt
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Exclude Scripts from GitHub
+scripts/
+data/scripts/
